@@ -1,6 +1,6 @@
 # License Plate Reader
 
-In this project I use two object detection models created using the train_model.ipynb script to make a license plate reader. The script trains two YOLOv5 models; one to identify and segment the location of a license plate and the next to read the characters of the license plate and return the plate numbers.
+In this project I use two object detection models created using the train_model.ipynb script to make a license plate reader. The script trains two YOLOv5 models with datasets found and obtained from Roboflow.com; one to identify and segment the location of a license plate and the next to read the characters of the license plate and return the plate numbers.
 
 The script ocr_image shows a comparison between the Optical Character Recognition (OCR) model from pytesseract and the object detection OCR I created along with some image manipulations to make the characters easier to read.
 
