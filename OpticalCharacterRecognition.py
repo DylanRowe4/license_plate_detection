@@ -21,7 +21,7 @@ class myOCR:
         """
         Load pretrained model from PyTorch hub.
         """
-        model = torch.hub.load("ultralytics/yolov5", "custom", './ocr/best.pt',
+        model = torch.hub.load("ultralytics/yolov5", "custom", self.model_weights,
                                _verbose=False, device='cpu')
         #set model confidence to 0.7
         model.conf = 0.7
